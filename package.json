@@ -1,0 +1,27 @@
+{
+  "name": "my_portfolio",
+  "version": "1.0.1",
+  "private": "true",
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/esinnation/portfolio"
+  },
+  "homepage": "https://github.com/esinnation/portfolio#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.1",
+    "parcel": "^2.0.1",
+    "prettier": "^2.4.1"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.10.2",
+    "bootstrap": "^5.1.3",
+    "jquery": "^3.6.0",
+    "popper.js": "^1.16.1",
+    "vanilla-tilt": "^1.7.2"
+  }
+}
